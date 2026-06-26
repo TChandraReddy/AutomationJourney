@@ -12,6 +12,7 @@ public class TestResultsTracker {
         testResults.put("Cart","PASS");
         testResults.put("Logout","PASS");
         testResults.put("Login", "FAIL");
+        testResults.put("Payment", "FAIL");
     }
     public void printSummary()
     {
